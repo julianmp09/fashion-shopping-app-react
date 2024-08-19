@@ -1,6 +1,5 @@
 import logo from '../assets/images/logo.png'
 import CardWidget from './CardWidget/CardWidget'
-CardWidget
 const NavBar = () => {
     return (
         <header className="hero-section">
