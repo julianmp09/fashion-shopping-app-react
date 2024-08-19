@@ -62,3 +62,16 @@ ul{
     background-color: var(--color-silver-light);
     color: var(--color-black);
 }
+
+.cardwidget{
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-card{
+    font-size: 1.3rem;
+}
+
+.greeting{
+    padding: 1rem;
+}

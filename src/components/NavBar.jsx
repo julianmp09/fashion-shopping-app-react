@@ -1,4 +1,6 @@
 import logo from '../assets/images/logo.png'
+import CardWidget from './CardWidget/CardWidget'
+CardWidget
 const NavBar = () => {
     return (
         <header className="hero-section">
@@ -9,6 +11,7 @@ const NavBar = () => {
                 <li><a href="">Fashion</a></li>
                 <li><a href="">Favourite</a></li>
                 <li><a href="">Lifestyle</a></li>
+                <CardWidget/>
                 <li><a href="" className="boton">Sign up</a></li>
             </ul>
         </nav>
