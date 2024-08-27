@@ -75,3 +75,46 @@ ul{
 .greeting{
     padding: 1rem;
 }
+
+/* Start components ItemContainer */
+.divCardContainer{
+    display: flex;
+    flex-wrap: wrap; /* Opcional, para permitir que los elementos se muevan a la siguiente línea si no caben en una sola línea */
+    gap: 1rem; /* Opcional, para añadir espacio entre los elementos */
+    margin: 1rem;
+}
+
+.divCard{
+    border: 0.3rem solid black;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+img{
+    width: 256px;
+    height: 173px;
+    border-radius: 0.8rem;
+}
+
+.p-card{
+    margin-bottom: 8px;
+}
+
+.boton-card{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100px;
+    width: 75px;
+    height: 34px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.boton-card:hover{
+    background-color: var(--color-silver-light);
+    color: var(--color-black);
+    cursor: pointer;
+}
