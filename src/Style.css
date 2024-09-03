@@ -140,6 +140,30 @@ ul{
 
 /* End hero Section */
 
+/* Comienzo de la section brands */
+.brands{
+    background-color: var(--color-mustard);
+    margin-top: 38px;
+}
+
+.flex-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 10rem;
+    mix-blend-mode: multiply;  /* mix-blend-mode: multiply; hace que el blanco en la imagen se vuelva transparente cuando se combina con el fondo oscuro. */
+
+}
+
+.flex-img > img {
+    max-width: 167px;
+    height: auto;
+    flex: 1 1 1; /* Ajusta el tamaño mínimo de los elementos */
+    object-fit: contain; /* Mantén la proporción de las imágenes */
+}
+
 /* Start components ItemContainer */
 .divCardContainer{
     display: flex;
@@ -154,8 +178,8 @@ ul{
     border-radius: 0.8rem;
 }
 img{
-    width: 256px;
-    height: 173px;
+    width: 274px;
+    height: 400px;
     border-radius: 0.8rem;
 }
 

@@ -3,10 +3,10 @@ import CardWidget from './CardWidget/CardWidget'
 const NavBar = () => {
     return (
         <header className="hero-section">
-        <a href="index.html" className="Fashion"><img src={logo} alt="logo-escudo" className="logo-escudo"/>Fashion</a>
+        <a href="/" className="Fashion"><img src={logo} alt="logo-escudo" className="logo-escudo"/>Fashion</a>
         <nav className="nav-bar">
             <ul className="nav-bar-list">
-                <li><a href="">Catalogue</a></li>
+                <li><a href="/catalogue">Catalogue</a></li>
                 <li><a href="">Fashion</a></li>
                 <li><a href="">Favourite</a></li>
                 <li><a href="">Lifestyle</a></li>
