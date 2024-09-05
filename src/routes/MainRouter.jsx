@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, Catalogue } from '../pages';
-import NavBar from '../components/NavBar';
+import { Home, Catalogue, Item } from '../pages';
+import { NavBar } from '../components';
 
 
 export const MainRouter = () => {
@@ -11,6 +11,8 @@ export const MainRouter = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/catalogue' element={<Catalogue/>}/>
+        <Route path='/item/:id' element={<Item/>}/>
+
       </Routes>
     </BrowserRouter>
   )

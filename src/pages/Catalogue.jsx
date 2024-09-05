@@ -1,6 +1,7 @@
 import React from 'react'
-import ItemListContainer from '../components/ItemListContainer/ItemListContainer'
 import { productsData } from '../data/productsData'
+import { ItemListContainer } from '../components'
+
 
 export const Catalogue = () => {
   return (

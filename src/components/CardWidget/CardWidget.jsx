@@ -1,6 +1,6 @@
 import { CiShoppingCart } from "react-icons/ci";
 
-const CardWidget = () => {
+export const CardWidget = () => {
     return (
         <div className="cardwidget">
             <p className="icon-card"><CiShoppingCart /></p>
@@ -9,4 +9,3 @@ const CardWidget = () => {
     )
 }
 
-export default CardWidget;

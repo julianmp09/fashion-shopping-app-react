@@ -169,6 +169,7 @@ ul{
     display: flex;
     flex-wrap: wrap; /* Opcional, para permitir que los elementos se muevan a la siguiente línea si no caben en una sola línea */
     gap: 1rem; /* Opcional, para añadir espacio entre los elementos */
+    justify-content: center;
     margin: 1rem;
 }
 

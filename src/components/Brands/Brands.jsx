@@ -7,7 +7,7 @@ import levis from '../../assets/images/levis.png'
 import amazon from '../../assets/images/amazon.png'
 
 
-const Brands = () => {
+export const Brands = () => {
   return (
     <section className="brands">
     <div className="flex-img">
@@ -22,4 +22,4 @@ const Brands = () => {
 )
 }
 
-export default Brands
+

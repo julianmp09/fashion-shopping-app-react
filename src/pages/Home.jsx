@@ -1,7 +1,5 @@
 import React from 'react';
-import { HeroSection } from '../components/HeroSection/HeroSection';
-import Brands from '../components/Brands/Brands';
-
+import { Brands, HeroSection } from '../components';
 
 
 export const Home = () => {

@@ -1,4 +1,6 @@
-const ItemListContainer = ({ greeting, products }) => {
+import { Link } from "react-router-dom";
+
+export const ItemListContainer = ({ greeting, products }) => {
     return (
         <>
             <div className="greeting">{greeting}</div>
@@ -9,6 +11,7 @@ const ItemListContainer = ({ greeting, products }) => {
                         <h2>{product.id}</h2>
                         <p className="p-card">{product.description}</p>
                         <button className="boton-card">Buy</button>
+                        <Link to={`/item/${product.id}`}>Ver detalle</Link>
                     </div>
                 ))}
             </div>
@@ -16,4 +19,3 @@ const ItemListContainer = ({ greeting, products }) => {
     );
 };
 
-export default ItemListContainer;
