@@ -6,7 +6,7 @@ import { ItemListContainer } from '../components'
 export const Catalogue = () => {
   return (
     <>
-      <ItemListContainer products={productsData} greeting={"hola"}/>
+      <ItemListContainer products={productsData} greeting={"product catalog"}/>
     </>
   )
 }

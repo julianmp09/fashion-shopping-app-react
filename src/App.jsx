@@ -1,5 +1,4 @@
 import React from "react";
-import { getAllProducts } from "./services/products";
 import { MainRouter } from "./routes";
 
 

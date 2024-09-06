@@ -7,7 +7,7 @@ export const NavBar = () => {
         <nav className="nav-bar">
             <ul className="nav-bar-list">
                 <li><a href="/catalogue">Catalogue</a></li>
-                <li><a href="/item">Item</a></li>
+                <li><a href="">Fashion</a></li>
                 <li><a href="">Favourite</a></li>
                 <li><a href="">Lifestyle</a></li>
                 <CardWidget/>

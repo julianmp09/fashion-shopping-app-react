@@ -207,3 +207,64 @@ img{
     color: var(--color-black);
     cursor: pointer;
 }
+
+.greeting{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 3rem;
+    text-decoration:underline;
+}
+
+.link-item-list{
+    margin-left: 8rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-item-list:hover{
+    color: var(--color-mustard);
+    cursor: pointer;
+}
+
+/* Item Page and spinner */
+
+.divCard-item{
+    border: 0.3rem solid black;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.boton-card-item{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100px;
+    width: 75px;
+    height: 34px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.boton-card-item:hover{
+    background-color: var(--color-silver-light);
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
